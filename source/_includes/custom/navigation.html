@@ -1,0 +1,20 @@
+<div id="main-nav">
+    <nav>
+        <ul>
+        	<li>
+        		{% if site.blog_index_asides.size %}
+					{% include_array blog_index_asides %}
+				{% else %}
+					{% include_array default_asides %}
+				{% endif %}
+        	</li>
+        	<li>
+            <div class="socialmedia-icons">
+              <a href="https://www.facebook.com/thrivehealthfully/" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.twitter.com/thrivehealthful" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://instagram.com/thrive.healthfully" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        	</li>
+        </ul>
+    </nav>
+</div>
