@@ -7,9 +7,14 @@
       {% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}
     </a></h1>
   {% else %}
-    <h1>
+    <h1 class="page-title">
       {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
     </h1>
+    <div class="date-section">
+      {{ page.date_html }}
+    </div>
+    <div class="author-section">{{page.author}}</div>
+    <br />
   {% endif %}
 </header>
 {% if index %}

@@ -15,14 +15,16 @@ $red: #DA3E10;
 $darkRed: #902404;
 $white: #fff;
 $turquoise: #2aa198;
+$grey: #695d46;
 
 // Fonts
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
 
-$bodyFont: 'Source Sans Pro';
+$bodyFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
-$sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
+$sans: "PT Sans Narrow", "Helvetica Neue", Arial, sans-serif !default;
+$headerFont: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $fontSize: 1em;
 $fontSizeSmall: 0.8em;

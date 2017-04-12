@@ -1,7 +1,22 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-.socialmedia-icons .fa {
-  font-size: 3rem;
+.page-title {
+  color: $header-bg;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.author-section {
+  color: $grey;
+}
+
+.date-section {
+  color: $grey;
+  font-size: 1rem;
+}
+
+p {
+  color: $grey;
 }
 

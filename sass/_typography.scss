@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans+Narrow');
+
 
 body {
     font-family: $bodyFont, sans-serif;
@@ -6,11 +8,11 @@ body {
 }
 
 a {
-	color: $red;
+	color: $purple;
 	text-decoration: none;
 	&:hover {
 		text-decoration: underline;
-		color: $darkRed;
+		//color: $darkRed;
 	}
 }
 
@@ -19,6 +21,7 @@ p {
 }
 
 h1 {
+  font-family: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-top: 4px;
 	line-height: 1.4em;
 	font-size: $fontSizeLarge;
